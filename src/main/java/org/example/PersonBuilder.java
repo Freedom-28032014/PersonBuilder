@@ -1,4 +1,5 @@
 package org.example;
+
 // ЗАДАЧА №1, также надо создать класс PersonBuilder для конструирования объектов класса Person.
 // Объекту этого класса (далее - билдер) можно выставлять любые данные для будущего объекта класса
 public class PersonBuilder {
@@ -11,14 +12,17 @@ public class PersonBuilder {
         this.name = name;
         return this;
     }
+
     public PersonBuilder setSurname(String surname) {
         this.surname = surname;
         return this;
     }
+
     public PersonBuilder setAge(int age) {
         this.age = age;
         return this;
     }
+
     public PersonBuilder setAddress(String address) {
         this.city = address;
         return this;
